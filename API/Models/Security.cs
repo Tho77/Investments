@@ -8,8 +8,8 @@ namespace Investments.Models
     public class Security
     {
         public int Id { get; set; }
-        public int Symbol { get; set; }
-        public int Name { get; set; }
+        public string Symbol { get; set; }
+        public string Name { get; set; }
         public int SecurityTypeId { get; set; }
         public int MarketId { get; set; }
 
